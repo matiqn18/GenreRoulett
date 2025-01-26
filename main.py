@@ -79,7 +79,7 @@ if(work_with_file):
     # Load categories from the file 'games_genre.txt'
     categories = load_categories('games_genre.txt')
     # Save the results to a CSV file
-    save_to_csv('wyniki.txt', categories, numbered_pairs)
+    save_to_csv('result.txt', categories, numbered_pairs)
 else:
     # Print results in terminal using tabulate
     print("Pairs:")
